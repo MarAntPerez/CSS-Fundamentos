@@ -23,5 +23,16 @@ p{
 
 h2{
     font-family: 'MiFuente';
-    font-size: 52px;
+    font-size: 36px;
+}
+
+.articulo{
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: blueviolet;
+    line-height: 1.6em;
+    letter-spacing: 2px;
 }
