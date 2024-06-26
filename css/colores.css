@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color: white;
+    background-color: brown;
+}
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+/* Se pueden definir colores usando valores hexadecimales de 6 dígitos (RRGGBB), RR intensidad de rojo, GG intensiad de verde y BB intensidad de azul */
+h2{
+    color: #00FF00;
+}
+
+/* RGB - RED-GREEN-BLUE - de 0 a 255 */
+h3{
+    color: rgb(230, 14, 111);
+}
+
+/* RGBA - RED-GREEN-BLUE-ALPHA - de 0 a 255 - alpha: transparencia de 0 a 1 */
+h4{
+    color: rgba(230, 14, 111, 0.09);
+    font-size: 48px;
+}
+
+/* HSL (Hue, Saturation, Lightness) o HSLA (... + Alpha) - Hue: Sono, Saturation: Saturacion, Lightness: Luminosidad y Alpha: Transparencia */
+h5{
+    color: hsla(60, 100%, 50%, 0.7);
+    font-size: 32px;
+}
+
+/* Usar palabra transparent */
+h6{
+    color: transparent;
+}
