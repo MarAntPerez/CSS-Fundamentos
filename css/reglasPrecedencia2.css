@@ -1,0 +1,24 @@
+/* p{
+    font-size: 36px;
+    color: blue;
+} */
+
+#elemento1{
+    color: blue;
+}
+
+.caja-elemento-1{
+    color: red !important;
+}
+
+p{
+    color: red;
+    font-size: 22px;
+}
+
+p{
+    color: yellow;
+    font-size: 18px;
+    border: 1px solid gray;
+    background-color: black;
+}
