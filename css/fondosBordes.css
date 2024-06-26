@@ -4,6 +4,8 @@
     border-style: solid;
     border-color: blueviolet; */
     border: 3px solid rgb(43, 8, 8);
+    /* Redondear bordes - Redondea todas las esquinas*/
+    border-radius: 10px;
 }
 
 #caja2{
@@ -13,6 +15,7 @@
     border-left: rgb(218, 134, 16) dotted 3px;
     border-right: rgb(218, 134, 16) dotted 5px;
     border-bottom: chartreuse solid 8px;
+    border-radius: 10px 20px 10px 0px;
 }
 
 #caja3{
@@ -23,6 +26,7 @@
     background-size: cover;
     width: 800px;
     height: 600px;
+    border-radius: 10px 40px;
 }
 
 #caja4{
