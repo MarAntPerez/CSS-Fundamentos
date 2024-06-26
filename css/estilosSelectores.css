@@ -1,0 +1,62 @@
+/* Selector universal . se usa * */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* body{
+    background-color: gray;
+} */
+
+/* Selector por elemento */
+h1{
+    font-size: 48px;
+    background-color: blue;
+    color: white;
+}
+
+h2{
+    font-size: 36px;
+    color: red;
+}
+
+/* Selector por ID - se usa # - elementos unicos */
+h2#subtitulo-encabezado{
+    color: orange;
+}
+
+/* Selector por CLASE - se usa . - elementos agrupados*/
+.subtitulo-encabezado{
+    color: orange;
+}
+
+.borde-gris{
+    border: 2px solid black;
+}
+
+/* Selector múltiple */
+h1, p, .borde-gris{
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+/* Selector de desendencia child - nested */
+/* ul li{
+    list-style: square;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid red;
+} */
+
+/* Selector de hijos directos */
+ul > li{
+    list-style: square;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    border: 1px solid red;
+}
+
+ol > li{
+    border: 1px solid blue;
+}
