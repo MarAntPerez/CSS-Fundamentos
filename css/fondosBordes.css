@@ -1,0 +1,35 @@
+#caja1{
+    background-color: coral;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet; */
+    border: 3px solid rgb(43, 8, 8);
+}
+
+#caja2{
+    background: #333;
+    color: #FFF;
+    border-top: blue solid 4px;
+    border-left: rgb(218, 134, 16) dotted 3px;
+    border-right: rgb(218, 134, 16) dotted 5px;
+    border-bottom: chartreuse solid 8px;
+}
+
+#caja3{
+    background-image: url('../imagenes/pintura.jpg');
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+}
+
+#caja4{
+    border: 2px solid black;
+    background: url('../imagenes/carrete240.png') no-repeat center;
+}
+
+/* table{
+    border-collapse: collapse;
+} */
