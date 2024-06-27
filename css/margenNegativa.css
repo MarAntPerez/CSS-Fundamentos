@@ -1,0 +1,8 @@
+h3{
+    font-size: 36px;
+    /* display: none; */
+    /* visibility: hidden; */
+    margin-top: -40px;
+    margin-left: -100px;
+    /* Los margenes negativas aplican solamente para el margin no para el padding */
+}
