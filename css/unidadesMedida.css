@@ -1,0 +1,13 @@
+/* Unidades de medida absoluta
+cm, mm, in, px, pt, pc
+El pixel es la medida mas simple y comun de CSS. Un pixel representa un punto individual en la pantalla */
+
+h3{
+    font-size: 36px;
+}
+
+.caja{
+    width: 10px;
+    height: 10px;
+    background-color: blueviolet;
+}
