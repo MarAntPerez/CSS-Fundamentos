@@ -1,0 +1,29 @@
+/* Posicionamiento Fixed: Coloca un elemento en una posicion especifica en nrelacion con la ventana del navegador, lo que hace que el elemento se mantenga en la misma posicion incluso al desplazarse por la pagina (Hacer scroll). */
+
+/* h3{
+    background-color: brown;
+    font-size: 48px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+} */
+
+/* Posicionamiento sticky: Es una combinacion de relative y fixed. Un elemento con posicionamiento sticky se comporta como relative hasta que alcanza una ubicacion de referencia definida y luego se comporta como fixed */
+
+h3{
+    background-color: brown;
+    font-size: 48px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
