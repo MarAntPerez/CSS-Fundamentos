@@ -11,3 +11,19 @@ h3{
     height: 10px;
     background-color: blueviolet;
 }
+
+/* La unidad de medida en porcentaje (%) en CSS, es una unidad relativa que se utiliza para definir tamaños y posiciones en relacion con el tamaño del elemento contenedor*/
+
+.contenedor{
+    background-color: brown;
+    width: 80%;
+    height: 500px;
+    /* margin: 10%; */
+}
+
+.elemento{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    padding: 10%;
+}
